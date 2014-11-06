@@ -9,9 +9,10 @@ namespace GameKeeperWeb.Controllers
     public class GameController : Controller
     {
         [HttpGet]
+        [Route("[action]")]
         public ActionResult Index()
         {
-            return Json(new List<Game>() { new Game()});
+            return Json(new List<Game>() { new Game() { Id = 1, Name = "Chess" } });
         }
     }
 }
