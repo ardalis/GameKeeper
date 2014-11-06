@@ -157,9 +157,9 @@ ClientBin/
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
-bower_components/
-node_modules/
-wwwroot/lib/*
+bower_components
+node_modules
+wwwroot/lib
 
 # RIA/Silverlight projects
 Generated_Code/
