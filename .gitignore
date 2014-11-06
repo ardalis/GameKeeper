@@ -159,7 +159,7 @@ ClientBin/
 *.publishsettings
 bower_components
 node_modules
-wwwroot/lib
+**/wwwroot/lib
 
 # RIA/Silverlight projects
 Generated_Code/
