@@ -5,12 +5,13 @@ VisualStudioVersion = 14.0.22231.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GameKeeperWeb", "GameKeeperWeb\GameKeeperWeb.kproj", "{7A7FECC5-0F84-4B52-AE6C-A568D2A421E6}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "..\Core\Core.kproj", "{BAAEE361-A193-4672-933D-872FEC524D5A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{BA957E06-88DA-43F5-ABC4-4A0EB65D9EF0}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitignore = ..\.gitignore
+		..\global.json = ..\global.json
 	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Core", "Core\Core.kproj", "{BAAEE361-A193-4672-933D-872FEC524D5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
